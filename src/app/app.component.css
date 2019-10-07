@@ -1,0 +1,121 @@
+.content-wrapper {
+    background-color: white;
+    max-width: 70%;
+    margin: 0 auto;
+    border-color: #DDD;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 2px 2px #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 3%;
+    border-bottom-color: gold;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+h1 {
+    display: inline-block;
+    margin-bottom: 1.6em;
+}
+
+h2 {
+    margin-right: 1.6em;
+}
+
+#logo {
+    max-width: 25%;
+    float: right;
+    border-color: #DDD;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#line {
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #DDD;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border-color: #BBB;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #DDD inset;
+    margin-top: 1em;
+}
+
+textarea::-webkit-input-placeholder {
+    padding: 1%;
+}
+
+p {
+    color: #666;
+}
+
+.length {
+    text-align: right;
+    margin-top: 5px;
+}
+
+#label-email {
+    display: block;
+}
+
+#email {
+    width: 90%;
+    height: 30px;
+    border-color: #DDD;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #DDD inset;
+    margin-top: 1em;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.col1 {
+    width: 50%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+#button {
+    background-color: lightseagreen;
+    color: #ffffff;
+    width: 91%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 1.6em;
+}
+
+.sprite {
+    background-image: url("https://static.trustedshops.com/img/rating/reviewFormSpriteB.png");
+    background-position: 0 -40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin-top: 0.6em;
+}
+
+.selected {
+    background-position: 0 0;
+}
